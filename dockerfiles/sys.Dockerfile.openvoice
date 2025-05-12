@@ -30,7 +30,7 @@ RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -
 # Make conda available in the PATH
 ENV PATH=/opt/conda/bin:$PATH
 
-COPY scripts/sys.run.sh .
+COPY openvoice-docker/scripts/sys.run.sh .
 
 RUN chmod +x sys.run.sh
 
