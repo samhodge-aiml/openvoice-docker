@@ -1,8 +1,6 @@
 #!/bin/bash
 
-ARG DOCKER_IMAGE
-
-FROM ${DOCKER_IMAGE}
+FROM nvidia/cuda:12.5.0-devel-ubuntu22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
